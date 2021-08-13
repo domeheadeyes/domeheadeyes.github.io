@@ -39,6 +39,7 @@ body {
 
 a {
     text-decoration: none;
+    color: black;
 }
 
 a:visited {
@@ -72,7 +73,11 @@ footer.end {
     font-size: 15px;
 }
 
-.links li{
+.links a, a:visited{
+    color:black;
+}
+
+.links li {
     list-style-type: none;
 }
 
