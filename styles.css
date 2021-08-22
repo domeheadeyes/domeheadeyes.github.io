@@ -30,7 +30,7 @@ header.nav a.current {
 } */
 
 body {
-    background-color: gainsboro;
+    background-color: rgb(212, 199, 226);
     font-size: 12px;
     display: flex;
     flex-direction: column;
