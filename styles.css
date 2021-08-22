@@ -1,13 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Courier+Prime');
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond');
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
 html, body {
     height: 100%;
 }
 
-header.nav {
+header.nav { 
     font-weight: bold;
     display: block;
     float: left;
     font-size: 14px;
+    padding: 10px 16px 0 16px;
 }
+
+header.nav > * {
+    display: block;
+    float: left;
+    padding-right: 16px;
+}
+
+header.nav a.current {
+    /* text-decoration: underline; */
+    font-weight: 500;
+}
+
+/* header.nav a.active:visited {
+    text-decoration: underline;
+} */
 
 body {
     background-color: gainsboro;
@@ -81,10 +101,10 @@ footer.end {
     list-style-type: none;
 }
 
-/* .frontart {
+.frontart {
     width: 400px;
     height: 400px;
     display: flex;
     flex-direction: column;
-} */
+}
 
